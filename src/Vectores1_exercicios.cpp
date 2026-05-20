@@ -3,7 +3,6 @@
 // 2. Escrever código para somar os valores do array anterior
 
 // 3. Definir vector (com std::vector) com valores pares de 0 a 20
-
 // 4. Definir outro vector que é uma cópia deste vector
 
 // 5. Definir vector (com std::vector) com os seguintes nomes: ALBERTO, 

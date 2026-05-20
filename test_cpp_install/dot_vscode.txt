@@ -1,0 +1,21 @@
+1. Certificar que C++ com suporte para C++17 e boost estão instalados na sua plataforma:
+
+    1.1 Testar existência de compilador de c++ com:
+        Mac: 
+            $ clang++ -v 
+            Deve exibir versão superior ou igual a 9. Em alternativa:
+             $ echo -e '#include <iostream>\n int main(){std::cout << "Hello World" << std::endl; }' | clang++ -std=c++17 -x c++ -
+
+        Linux: 
+            $ g++ -v
+            Deve exibir versão superior ou igual a 7. Em alternativa:
+            $ echo -e '#include <iostream>\n int main(){std::cout << "Hello World" << std::endl; }' | g++ -std=c++17 -x c++ -
+
+        Windows: 
+            C:\...> g++ -std=c++17
+            Deve exibir versão superior ou igual a 7.
+
+2. Certificar que o VS Code mais a extensão para C++ estão instalados
+
+3. Na directoria acima deste ficheiro, deszipar a versão apropriada de "dot_vscode_???.zip"
+   Aí deverá surgir a directoria ".vscode"
